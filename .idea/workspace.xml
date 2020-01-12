@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d54af15-8d6e-476a-a73d-556bcc9d52ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-eureka/src/main/java/com/study/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-eureka/target/classes/com/study/eureka/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/src/main/java/com/study/zuul/aggregation/AggregationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/src/main/java/com/study/zuul/aggregation/AggregationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/src/main/java/com/study/zuul/aggregation/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/src/main/java/com/study/zuul/aggregation/ZuulAggregationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul-aggregation/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul/src/main/java/com/study/zuul/GateZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gate-zuul/target/classes/com/study/zuul/GateZuulApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/study/movie/feign/MovieFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/study/movie/feign/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/study/movie/feign/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/java/com/study/movie/feign/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/target/classes/com/study/movie/feign/MovieFeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/target/classes/com/study/movie/feign/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/target/classes/com/study/movie/feign/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-feign/target/classes/com/study/movie/feign/feign/UserFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/study/movie/ribbon/MovieRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/study/movie/ribbon/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/java/com/study/movie/ribbon/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/target/classes/META-INF/movie-ribbon.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/target/classes/com/study/movie/ribbon/MovieRibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/target/classes/com/study/movie/ribbon/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-ribbon/target/classes/com/study/movie/ribbon/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/com/study/provider/user/ProviderUserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/com/study/provider/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/com/study/provider/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/classes/com/study/provider/user/ProviderUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/classes/com/study/provider/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/classes/com/study/provider/user/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/provider-user-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/target/provider-user-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\Practice\Study\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\javae\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W3YbkNHPH4sglLkdYdsC1h6TWR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.movie.ribbon" />
+      <recent name="com.study.movie.ribbon.entity" />
+      <recent name="com.study.movie.feign.entity" />
+      <recent name="com.study.provider.user.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Practice\Study\gate-zuul-aggregation\src\main\java\com\study\zuul\aggregation" />
+      <recent name="F:\Practice\Study\gate-zuul-aggregation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MovieRibbonController">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gate-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.zuul.GateZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.movie.feign.MovieFeignApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRibbonController" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.movie.ribbon.MovieRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.provider.user.ProviderUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MovieFeignApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ProviderUserApplication" />
+      <item itemvalue="Spring Boot.MovieRibbonController" />
+      <item itemvalue="Spring Boot.GateZuulApplication" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yyh\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d54af15-8d6e-476a-a73d-556bcc9d52ba" name="Default Changelist" comment="" />
+      <created>1578379818192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578379818192</updated>
+      <workItem from="1578379820926" duration="5267000" />
+      <workItem from="1578444368050" duration="20773000" />
+      <workItem from="1578530115829" duration="9751000" />
+      <workItem from="1578616542329" duration="6386000" />
+      <workItem from="1578826091121" duration="526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/yyh" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1578465352888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578465352888" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578467887099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578467887099" />
+    <state x="689" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578450101456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="307" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578450101456" />
+    <state x="732" y="384" width="455" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578461076761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="384" width="455" height="278" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1578461076761" />
+    <state x="527" y="113" key="CommitChangelistDialog2" timestamp="1578646991391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578646991391" />
+    <state x="526" y="194" key="FileChooserDialogImpl" timestamp="1578826423031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="194" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578826423031" />
+    <state x="739" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578646951533" />
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1578565044444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044444" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1578565044443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578565044443" />
+    <state x="324" y="18" key="SettingsEditor" timestamp="1578826435406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578826435406" />
+    <state x="455" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578638487740" />
+    <state x="364" y="291" key="new project wizard" timestamp="1578537357885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="364" y="291" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578537357885" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578531158299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578531158299" />
+    <state x="513" y="158" key="svn.repositoryBrowser" timestamp="1578826415156">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="158" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1578826415156" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/movie-ribbon/src/main/java/com/study/movie/ribbon/MovieRibbonApplication.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

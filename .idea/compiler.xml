@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gate-zuul" />
+        <module name="gate-zuul-aggregation" />
+        <module name="provider-user" />
+        <module name="movie-ribbon" />
+        <module name="discovery-eureka" />
+        <module name="movie-feign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
