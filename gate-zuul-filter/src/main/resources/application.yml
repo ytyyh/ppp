@@ -15,4 +15,4 @@ management:
 zuul:
   routes:
     microservice-consumer-movie: /consumer-movie/**
-#    provider-users：/provider-user/**
+    provider-users：/provider-user/**
