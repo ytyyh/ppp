@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gate-zuul" />
+        <module name="gate-zuul-filter" />
         <module name="gate-zuul-aggregation" />
         <module name="provider-user" />
         <module name="movie-ribbon" />
         <module name="discovery-eureka" />
+        <module name="microservice-config-server" />
         <module name="movie-feign" />
       </profile>
     </annotationProcessing>

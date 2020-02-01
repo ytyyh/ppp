@@ -14,5 +14,12 @@ management:
     enabled: false
 zuul:
   routes:
-    microservice-consumer-movie: /consumer-movie/**
-    provider-users：/provider-user/**
+    movie-route:
+      service-id: microservice-consumer-movie
+      path: /url_movie/**
+    user-route:
+      service-id: provider-user
+      path: /url_user/**
+  PreRequestLogFilter:
+    pre:
+      disable: true

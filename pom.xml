@@ -16,6 +16,7 @@
         <module>gate-zuul</module>
         <module>gate-zuul-aggregation</module>
         <module>gate-zuul-filter</module>
+        <module>microservice-config-server</module>
     </modules>
 
 

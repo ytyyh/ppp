@@ -11,25 +11,15 @@ public class AggregationService {
   @Autowired
   private RestTemplate restTemplate;
 
-  @HystrixCommand(fallbackMethod = "fallback")
-  public Observable<User> getUserById(Long id) {
-    // 创建一个被观察者
-    return Observable.create(observer -> {
-      // 请求用户微服务的/{id}端点
-      User user = restTemplate.getForObject("http://microservice-provider-user/{id}", User.class, id);
-      observer.onNext(user);
-      observer.onCompleted();
-    });
+  public User getUserById() {
+    // 请求用户微服务的/{id}端点
+    User user = restTemplate.getForObject("http://provider-user/userInfo/findUser", User.class);
+    return  user;
   }
 
-  @HystrixCommand(fallbackMethod = "fallback")
-  public Observable<User> getMovieUserByUserId(Long id) {
-    return Observable.create(observer -> {
-      // 请求电影微服务的/user/{id}端点
-      User movieUser = restTemplate.getForObject("http://microservice-consumer-movie/user/{id}", User.class, id);
-      observer.onNext(movieUser);
-      observer.onCompleted();
-    });
+  public User getMovieUserByUserId() {
+      User movieUser = restTemplate.getForObject("http://microservice-consumer-movie/movieInfo/user", User.class);
+      return movieUser;
   }
 
   public User fallback(Long id) {
